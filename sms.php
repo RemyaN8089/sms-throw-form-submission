@@ -37,15 +37,15 @@
     <div class="container mt-5">
             <div class="row justify-content-md-center">
                 <div class="col-md-4">
-                    <p  id-"response" class="text-center"></p>
+                    <p  id="response" class="text-center"></p>
                 </div>
             </div>
         </div>
 </body>
 <script type="text/javascript">
 function clearAllFields(){
-    number.value="";
-    textMessage.value="";
+    document.getElementbyId("number").value="";
+    document.getElementbyId("textMessage").value="";
 }
 </script>
 </html>
